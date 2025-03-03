@@ -1,6 +1,7 @@
 package service;
 
 import entity.EmployeeEntity;
+import model.Employee;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -13,7 +14,7 @@ public interface EmployeeService {
 
 
 
-    public List<EmployeeEntity> getEmployeesByIds(List<Long> employeeIds);
+    public List<Employee> getEmployeesByIds(List<Long> employeeIds);
 
 
 
